@@ -48,3 +48,8 @@ momentApp.controller('momentCtrl', ['$scope', function($scope) {
 }]);
 
 ```
+OUTPUT:
+
+```
+Welcome! This content got refreshed: 38 minutes ago
+```
