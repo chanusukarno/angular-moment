@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Angular Moment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="angular.js"></script>
+        <script src="moment.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body ng-app="momentApp">
+        <div ng-controller="momentCtrl">
+            <!--<div ng-controller="momentCtrl">I started this Project: {{date | amRelative}}</div>-->
+            Welcome! This content got refreshed: <span data-am-relative="date"></span>
+        </div>
+    </body>
+</html>
