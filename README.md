@@ -6,6 +6,8 @@ AngularJS Directive for Representing relative times using MomentJS
 ![alt tag](http://techiedreams.com/downloads/angular-moment.png)
 
 DIRECTIVE:
+
+```
 momentApp.directive('amRelative', ['$timeout', function($timeout) {
 
         function update(scope, element) {
@@ -24,16 +26,25 @@ momentApp.directive('amRelative', ['$timeout', function($timeout) {
             }
         };
     }]);
-    
+
+```    
     
 USAGE:
 
 Html:
+
+```
 <div ng-controller="momentCtrl">
             Welcome! This content got refreshed: <span data-am-relative="date"></span>
 </div>
 
+```
+
 Controller:
+
+```
 momentApp.controller('momentCtrl', ['$scope', function($scope) {
         $scope.date = new Date();
 }]);
+
+```
