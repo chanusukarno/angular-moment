@@ -4,7 +4,7 @@ var momentApp = angular.module('momentApp', []);
 
 // Controller
 momentApp.controller('momentCtrl', ['$scope', function($scope) {
-        $scope.date = new Date();
+        $scope.date = new Date(); // init date
     }]);
 
 // Filter
